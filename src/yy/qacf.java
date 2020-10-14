@@ -23,20 +23,7 @@ public class qacf {
  
 		}
  
-		for (int i = 0; i < a.length; i++) {
-			if (max == a[i]) {
-				m = i; //获取最大值位置
-			}
-			if (min == a[i]) {
-				n = i;//获取最小值位置
-			}//将最大值与第一个元素互换，最小值与最后一个元素互换
-			t = a[0];
-			a[0] = max;
-			max = t;
-			t = a[a.length - 1];
-			a[a.length - 1] = min;
-			min = t;
-		}
+
 		for (int i = 0; i < a.length; i++) {
  
 			System.out.println(a[i]);//输出数组
