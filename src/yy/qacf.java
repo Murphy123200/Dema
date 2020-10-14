@@ -18,9 +18,7 @@ public class qacf {
 			n = 0;
 			if (max <= a[i])
 				max = a[i]; //取出最大值
-			if (min >= a[i])
-				min = a[i];//取出最小值
- 
+		
 		}
  
 
